@@ -17,9 +17,7 @@ const fetchBreedDescription = (breed) => {
         // convert the body to raw data
         const data = JSON.parse(body);
         // log the data
-        console.log(data);
-        // log the datatype
-        console.log(typeof data);
+        console.log(data[0]['description']);
       }
     }
 
