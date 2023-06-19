@@ -40,4 +40,4 @@ const fetchBreedDescription = (breed) => {
 // call the function on each command line argument
 for (const arg of args) {
   fetchBreedDescription(arg);
-};
+}
