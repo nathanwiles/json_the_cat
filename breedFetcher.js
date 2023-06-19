@@ -20,6 +20,7 @@ const fetchBreedDescription = (breed) => {
       // print error and return if one occurred
       console.log("URL not found:", error.hostname);
       return;
+      
     } else {
       // if no error, check if response is 200: OK
       if (response.statusCode === 200) {
